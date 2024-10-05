@@ -34,6 +34,7 @@
             this.rad_Vetores = new System.Windows.Forms.RadioButton();
             this.rad_Arrays = new System.Windows.Forms.RadioButton();
             this.btn_fechar = new System.Windows.Forms.Button();
+            this.rad_Atividades = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // Lbl_Titulo
@@ -104,11 +105,24 @@
             this.btn_fechar.UseVisualStyleBackColor = true;
             this.btn_fechar.Click += new System.EventHandler(this.btn_fechar_Click);
             // 
+            // rad_Atividades
+            // 
+            this.rad_Atividades.AutoSize = true;
+            this.rad_Atividades.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.rad_Atividades.Location = new System.Drawing.Point(317, 400);
+            this.rad_Atividades.Name = "rad_Atividades";
+            this.rad_Atividades.Size = new System.Drawing.Size(100, 24);
+            this.rad_Atividades.TabIndex = 9;
+            this.rad_Atividades.Text = "Atividades";
+            this.rad_Atividades.UseVisualStyleBackColor = true;
+            this.rad_Atividades.CheckedChanged += new System.EventHandler(this.rad_Atividades_CheckedChanged);
+            // 
             // Frm_Tela2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.rad_Atividades);
             this.Controls.Add(this.btn_fechar);
             this.Controls.Add(this.rad_Arrays);
             this.Controls.Add(this.rad_Vetores);
@@ -119,6 +133,7 @@
             this.Name = "Frm_Tela2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela 2";
+            this.Load += new System.EventHandler(this.Frm_Tela2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,5 +147,6 @@
         private System.Windows.Forms.RadioButton rad_Vetores;
         private System.Windows.Forms.RadioButton rad_Arrays;
         private System.Windows.Forms.Button btn_fechar;
+        private System.Windows.Forms.RadioButton rad_Atividades;
     }
 }

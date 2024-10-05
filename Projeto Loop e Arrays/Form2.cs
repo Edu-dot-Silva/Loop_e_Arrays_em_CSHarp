@@ -51,5 +51,17 @@ namespace Projeto_Loop_e_Arrays
             tela6.Show();  
             Hide(); 
         }
+
+        private void Frm_Tela2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rad_Atividades_CheckedChanged(object sender, EventArgs e)
+        {
+            frm_lacos tela7 = new frm_lacos();
+            tela7.Show();
+            Hide();
+        }
     }
 }
