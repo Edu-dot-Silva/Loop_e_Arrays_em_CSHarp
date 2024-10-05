@@ -156,6 +156,7 @@
             this.Controls.Add(this.lbl_vetores);
             this.Name = "frm_vetores";
             this.Text = "v";
+            this.Load += new System.EventHandler(this.frm_vetores_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

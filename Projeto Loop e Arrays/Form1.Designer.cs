@@ -44,6 +44,7 @@
             this.Wmp_Video.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Wmp_Video.OcxState")));
             this.Wmp_Video.Size = new System.Drawing.Size(693, 382);
             this.Wmp_Video.TabIndex = 0;
+            this.Wmp_Video.Enter += new System.EventHandler(this.Wmp_Video_Enter);
             // 
             // Lbl_Titulo
             // 
@@ -55,11 +56,12 @@
             this.Lbl_Titulo.Size = new System.Drawing.Size(309, 25);
             this.Lbl_Titulo.TabIndex = 1;
             this.Lbl_Titulo.Text = "PROJETO LOOP E ARRAYS";
+            this.Lbl_Titulo.Click += new System.EventHandler(this.Lbl_Titulo_Click);
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 14000;
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Frm_Abertura

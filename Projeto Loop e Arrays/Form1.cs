@@ -19,7 +19,7 @@ namespace Projeto_Loop_e_Arrays
 
         private void Frm_Abertura_Load(object sender, EventArgs e)
         {
-            Wmp_Video.URL = "Vinheta.mp4"; //Buscando o Vídeo
+            Wmp_Video.URL = ""; //Buscando o Vídeo
             Wmp_Video.uiMode = "None"; //Tirando os Controles do Vídeo
         }
 
@@ -30,6 +30,16 @@ namespace Projeto_Loop_e_Arrays
             Frm_Tela2 tela2 = new Frm_Tela2(); //Instanciando o objeto tela2
             tela2.Show();
             Hide();
+        }
+
+        private void Wmp_Video_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lbl_Titulo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

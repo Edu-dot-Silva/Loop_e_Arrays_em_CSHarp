@@ -113,6 +113,7 @@
             this.Controls.Add(this.lbl_matriz);
             this.Name = "frm_matriz";
             this.Text = "Form6";
+            this.Load += new System.EventHandler(this.frm_matriz_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
