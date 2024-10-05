@@ -114,6 +114,7 @@
             this.Controls.Add(this.lbl_vetores);
             this.Name = "frm_lacos";
             this.Text = "Vetor 5 - Com Laço";
+            this.Load += new System.EventHandler(this.frm_lacos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -28,5 +28,18 @@ namespace Projeto_Loop_e_Arrays
             tela2.Show();
             Hide();
         }
+
+        private void frm_lacos_Load(object sender, EventArgs e)
+        {
+            string[] vetor5 = new string[7];
+
+            lst_vet_sem_laco.Items.Add(vetor5[0] = "Domingo");
+            lst_vet_sem_laco.Items.Add(vetor5[1] = "Segunda");
+            lst_vet_sem_laco.Items.Add(vetor5[2] = "Terça");
+            lst_vet_sem_laco.Items.Add(vetor5[3] = "Quarta");
+            lst_vet_sem_laco.Items.Add(vetor5[4] = "Quinta");
+            lst_vet_sem_laco.Items.Add(vetor5[5] = "Sexta");
+            lst_vet_sem_laco.Items.Add(vetor5[6] = "Sabado");
+        }
     }
 }
